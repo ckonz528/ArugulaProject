@@ -34,4 +34,3 @@ class ExportList:
     def __init__(self, lst):
         self.list = lst
 
-    def __call__(self):
