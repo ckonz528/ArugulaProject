@@ -3,7 +3,7 @@ from definitions import *
 from command_parser import parse_search_query
 from lists import show_list
 
-recipe_file = input("Enter file name: ")
+recipe_file = input("Enter recipe file: ")
 
 recipes = pickle.load(open(recipe_file, "rb"))
 
