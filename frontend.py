@@ -10,7 +10,7 @@ recipes = pickle.load(open(recipe_file, "rb"))
 lists = {}
 
 while True:
-    command = input("\n>>> ")
+    command = input("\nInput>>> ")
     if command == "exit":
         break
     # query = parse_search_query(command)
