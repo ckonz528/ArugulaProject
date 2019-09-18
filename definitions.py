@@ -3,7 +3,7 @@ from enum import Enum, Flag, auto
 
 class DietaryRestriction(Flag):
     NONE = 0
-    VEGETARIAN = auto()
+    VEGGIE = auto()
     VEGAN = auto()
     GF = auto()
     DF = auto()
